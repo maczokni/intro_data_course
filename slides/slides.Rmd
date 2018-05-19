@@ -1,0 +1,201 @@
+---
+title: | 
+    | Introduction to Data
+    | 
+author: "Réka Solymosi"
+date: "`r format(Sys.time(), '%d-%b-%Y')`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: center, middle
+
+# Data is...
+
+---
+
+class: center, middle
+
+# Some examples...
+
+![](https://i1.wp.com/flowingdata.com/wp-content/uploads/2016/04/Every-Kobe-Bryant-shot.png)
+
+[form Flowing Data](https://flowingdata.com/2016/04/14/every-kobe-bryant-shot-charted/)
+
+---
+
+class: center, middle
+
+# Some examples...
+
+![](https://fivethirtyeight.com/wp-content/uploads/2015/11/hickey-datalab-bestadaptations.png)
+
+[form Fivethirtyeight](https://fivethirtyeight.com/features/the-20-most-extreme-cases-of-the-book-was-better-than-the-movie/)
+
+
+---
+
+class: center, middle
+
+# Some examples...
+
+![](https://media.wired.com/photos/59326d05b8eb31692072f5fe/master/pass/DearData-week07-Stefanie-copy.jpg)
+
+[form Dear Data](http://www.dear-data.com/)
+
+
+
+---
+
+class: center, middle
+
+
+.large[Data are .green[factual information] (such as measurements or statistics) used as a basis for reasoning, discussion, or calculation.]
+
+---
+### Telling a story...
+
+[Florence Nightingale](http://bigbangdata.somersethouse.org.uk/florence-nightingale-a-data-pioneer/)
+
+![](http://bigbangdata.somersethouse.org.uk/wp-content/uploads/2015/12/FlorenceData900.jpg)
+
+---
+### Telling a story...
+
+[I Quant NY](http://iquantny.tumblr.com/post/83770853308/update-single-fire-hydrant-nets-nyc-33000-a)
+
+.left-column[![](img/iquantny01.png)]
+
+
+.right-column[![](img/iquantny02.png)]
+
+---
+
+[I Quant NY](http://iquantny.tumblr.com/post/83770853308/update-single-fire-hydrant-nets-nyc-33000-a)
+
+.left-column[![](img/iquantny03.png)]
+
+
+.right-column[![](img/iquantny04.png)]
+
+
+---
+### Telling a story...
+
+[Amanda Cox: You Draw It: How Family Income
+Predicts Children’s College Chances](https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html)
+
+![](https://www.dropbox.com/s/bls5xbmz1zlgwzr/upshot_amanda_cox.gif?dl=1)
+
+
+
+---
+### So how to get started?
+
+Topic -> Conceptualisation -> Operationalisation
+
+---
+### Topic
+
+What do you want to be able to say? What questions will you answer? 
+
+---
+### Conceptualisation
+
+What *variables* will you need to collect?
+
+---
+### Operationalisation
+
+How will you measure this? 
+What is included/ excluded?
+
+---
+### Exercise
+
+Conceptualise hate crime - what is in definition?
+Then operationalise your concept - how will you measure?
+
+
+---
+class: center, middle
+
+
+.large[Let's have a go: explore police.uk crime data]
+
+[Get the data](data.police.uk)
+
+
+
+---
+
+class: center, middle
+
+.large[Get to know your data: Data Dictionary]
+
+[Where the data provider tells you about their data](https://data.police.uk/about/#columns)
+
+---
+class: center, middle
+
+.large[Think about the limitations of the data]
+
+[Example of caution: location anonymisation](https://data.police.uk/about/#location-anonymisation)
+
+
+---
+class: center, middle
+
+.large[Any other possible limitations of the data?]
+
+---
+class: center, middle
+
+.large[Getting to know your data]
+
+![](img/datahead.png)
+
+---
+class: center, middle
+
+.large[Summarising categorical data - frequency table]
+
+![](img/freq_table_gif.gif)
+
+---
+class: center, middle
+
+.large[Summarising categorical data - 2-way frequency table]
+
+![](img/bivar_freq_table_gif.gif)
+
+
+---
+class: center, middle
+
+.large[Summarising numeric data - mean and median]
+
+![](img/calc_mean.gif)
+
+---
+class: center, middle
+
+.large[Summarising numeric data - is one number enough?]
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/09/mehtahickey-inconvenient-0831-9.png)
+[FiveThirtyEight](https://fivethirtyeight.com/features/al-gores-new-movie-exposes-the-big-flaw-in-online-movie-ratings/)
+---
+???
+
